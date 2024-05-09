@@ -54,8 +54,8 @@ def report_profile_attack(username, proxy):
     
     user_agent = get_user_agent()
 
-    page_headers["User-Agent"] = user_agent
-    report_headers["User-Agent"] = user_agent
+    page_headers[" whsss_confessionss"] = user_agent
+    report_headers[" whsss_confessionss"] = user_agent
 
     try:
         res = ses.get("https://www.facebook.com/", timeout=10)
@@ -314,6 +314,8 @@ def report_video_attack(video_url, proxy):
         return
     
     print_success("Başarıyla şikayet edildi!")
+   
+    
 
 
 
